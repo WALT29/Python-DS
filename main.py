@@ -23,5 +23,5 @@ print(dog_name)
 #using strings together with variables use f string f"${varible_name}"
 price_1="2.5"
 
-print(f"Total price is {price_1}")
+print(price_1)
 

@@ -1,3 +1,4 @@
+import random
 # Python data types
 """
 to know the type of the data type use type()
@@ -48,6 +49,16 @@ print(var_1.upper())
 print(var_1.strip()) #strip removes the extra space ahead
 print(var_1.startswith("h")) #if it starts with the specified letter it returns True else false
 
+# NUMBERS
+"""
+There are 3 types of numbers 
+    Integers -7 
+    Float - 8.3
+    complex - ij
 
+You can convert other data types to float / int using float () and int()
 
+"""
 
+# to generate random numbers use (import random) python doesnt have random() function
+print(random.randrange(1,40))

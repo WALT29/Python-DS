@@ -83,3 +83,26 @@ accessing an element in the list you should know the index of the element.Index 
 """
 my_list=["a","b","c","d"]
 print(my_list[1])
+
+list2=[1,2,3,4,5,6,7]
+print(list2.pop()) # removes the last element in the list and returns the element that has been removed
+
+list2.remove(1) # removes the specified element
+print(list2)
+
+print(sorted([23,45,1,2,56,8])) # sorted arranges the elements in the right order by default in the ascending order
+
+
+
+
+
+
+# TUPLES
+"""
+Tuples are created with closed and opened parenthesis ()
+Tuples are immutable - once a tupple has been created it cannot be changed 
+
+
+
+
+"""

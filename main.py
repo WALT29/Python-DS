@@ -93,6 +93,70 @@ print(list2)
 print(sorted([23,45,1,2,56,8])) # sorted arranges the elements in the right order by default in the ascending order
 
 
+"""
+working with SORT
+
+        its sorts the list in ascending by default 
+
+        list.sort(reverse=True|False key=myFunc)
+
+    parameter values - optional
+    
+        reverse- reverse=True will sort the list in descending order ,default is reverse=True
+        
+        key-A fucntion to specify the sorting criteria
+        
+    
+"""
+#sort the list by descending
+nums=[1,3,4,5,2,0]
+nums.sort(reverse=True)
+print(nums)
+
+cars=['BMW','FORD','BENZ','VOLVO']
+cars.sort(reverse=True)
+print(cars)
+
+
+#sort the list by length
+cars2= ['Ford', 'Mitsubishi', 'BMW', 'VW']
+
+def myFunc(element):
+    return len(element)
+
+cars2.sort(key=myFunc)
+print(cars2)
+
+"""
+WHY NO ARGUMENTS ARE PASSED EXPLICITLY TO MY FUNCTION (myFunc)
+
+    when using key=myFunc you are not  calling the function urself.Instead you are passing the functon object(not the result of the function ) to the sort() method
+    sort method automatically applies the function to each element of the list so you dont need tp explicitly pass anything
+    
+    its like saying "he sort " here is my function use it to calculate the sorting keys for each item in  the list
+"""
+
+#sort by year 
+cars3= [
+  {'car': 'Ford', 'year': 2005},
+  {'car': 'Mitsubishi', 'year': 2000},
+  {'car': 'BMW', 'year': 2019},
+  {'car': 'VW', 'year': 2011}
+]
+
+def myFunc2(element):
+    return element['year']
+
+cars3.sort(key=myFunc2)
+print(cars3)
+
+#sort by length
+
+cars3.sort(key=lambda element:len(element['car']))
+
+print(cars3)
+
+
 
 
 
@@ -101,8 +165,4 @@ print(sorted([23,45,1,2,56,8])) # sorted arranges the elements in the right orde
 """
 Tuples are created with closed and opened parenthesis ()
 Tuples are immutable - once a tupple has been created it cannot be changed 
-
-
-
-
 """

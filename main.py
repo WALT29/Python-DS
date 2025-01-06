@@ -71,11 +71,15 @@ print(random.randrange(1,40))
 4)DICTS
 
 """
+
 #LISTS
 """
 [1,2,3,4,5]
 You can create a list using the list() syntax
 list() - will create an empty list
 
+accessing an element in the list you should know the index of the element.Index starts from 0
 
 """
+my_list=["a","b","c","d"]
+print(my_list[1])

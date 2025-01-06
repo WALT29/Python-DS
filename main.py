@@ -62,3 +62,20 @@ You can convert other data types to float / int using float () and int()
 
 # to generate random numbers use (import random) python doesnt have random() function
 print(random.randrange(1,40))
+
+#SEQUENCE TYPE
+"""
+1)LISTS
+2)TUPLES
+3)SETS
+4)DICTS
+
+"""
+#LISTS
+"""
+[1,2,3,4,5]
+You can create a list using the list() syntax
+list() - will create an empty list
+
+
+"""

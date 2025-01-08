@@ -171,3 +171,13 @@ print(cars3)
 myL=[1,2,3,4]
 myl2=[1]
 print(tuple(myl2))
+
+# SETS AND DICTS
+
+#SETS
+"""
+A set is unindexed,unordered and unchangeable 
+can be initiated with curly brackets 
+
+
+"""

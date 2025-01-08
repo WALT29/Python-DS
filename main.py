@@ -96,17 +96,15 @@ print(sorted([23,45,1,2,56,8])) # sorted arranges the elements in the right orde
 """
 working with SORT
 
-        its sorts the list in ascending by default 
+        it sorts the list in ascending by default 
 
-        list.sort(reverse=True|False key=myFunc)
+        list.sort(reverse=True|False,key=myFunc)
 
     parameter values - optional
     
-        reverse- reverse=True will sort the list in descending order ,default is reverse=True
+        reverse- reverse=True will sort the list in descending order ,default is reverse=False
         
-        key-A fucntion to specify the sorting criteria
-        
-    
+        key-A function to specify the sorting criteria    
 """
 #sort the list by descending
 nums=[1,3,4,5,2,0]
@@ -157,12 +155,19 @@ cars3.sort(key=lambda element:len(element['car']))
 print(cars3)
 
 
-
-
-
-
 # TUPLES
 """
-Tuples are created with closed and opened parenthesis ()
-Tuples are immutable - once a tupple has been created it cannot be changed 
+    Tuples are created with closed and opened parenthesis ()
+    tuple() - class constructor function can be used to cast list and other iterable data types to tuples 
+    Tuples are immutable - once a tupple has been created it cannot be changed
+        NB: Tuples dont have methods like pop() or insert()
+    
+    While tuples are less flexible ,they can be advantageous .Tuples can be used in data retrieved from the database.The tuple protects the data until its no longer needed
+    
+    NB:Parentheses can also be used to order of operations and grouping of statements.To let python know its working with a tupple ,there has to be at least one comma even when there is one element in the tuple
+    (1,)
+    
 """
+myL=[1,2,3,4]
+myl2=[1]
+print(tuple(myl2))

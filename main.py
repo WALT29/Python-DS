@@ -217,8 +217,6 @@ To access data in the dictionary ,you canuse the square bracket notation [] and 
 you can also use the built in .get() method to retrieve the value of the key.
     this is useful sometimes when you are unsure if a key exists as it returns None instead of an error it no matching key exists
 
-
-
 """
 dict2=dict(x=1,y=2)
 print(dict2)
@@ -229,3 +227,29 @@ my_dict={
 print(my_dict['key1'])
 print(my_dict.get("key2"))
 print(my_dict.get("key3")) # .get() is good when you dont know if the key exists 
+
+#None
+"""
+None represents absence of value
+
+
+In JS there are 2 diff types of representing absence of value : null and undefined
+    UNDEFINED - comes up when:
+        - when a variable has been created but has not been assigned a value 
+        - when a function does not return a value
+    
+    NULL -Signifies the absence of any value
+
+Unlike Js python wont allow you create a variable without assigning a value 
+
+you must explicitly assign the value of NONE
+
+"""
+no_value=None
+print(no_value)
+
+# BOOLEAN
+"""
+There are two values of boolean data type - True and False
+
+"""

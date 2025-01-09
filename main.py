@@ -199,6 +199,33 @@ my_set=set(['3','2','3','a','b','a'])
 print(my_set)
 
 s={1,2,3,4,5}
-s.pop()
+s.pop() # pop reomves an element at a specified position pop(1)
 s.remove(3)
 print(s)
+
+#Dictionaries
+"""
+composed of key/value pair
+    {"key":value}
+    keys must be in string format
+    
+can be created using the dict() class constructor
+
+To access data in the dictionary ,you canuse the square bracket notation [] and pass in the key you are trying to access
+    dictionary["key"]
+
+you can also use the built in .get() method to retrieve the value of the key.
+    this is useful sometimes when you are unsure if a key exists as it returns None instead of an error it no matching key exists
+
+
+
+"""
+dict2=dict(x=1,y=2)
+print(dict2)
+my_dict={
+    "key1":1,
+    "key2":2
+}
+print(my_dict['key1'])
+print(my_dict.get("key2"))
+print(my_dict.get("key3")) # .get() is good when you dont know if the key exists 

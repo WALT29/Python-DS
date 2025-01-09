@@ -176,8 +176,29 @@ print(tuple(myl2))
 
 #SETS
 """
+{}
 A set is unindexed,unordered and unchangeable 
-can be initiated with curly brackets 
+can be initiated with curly brackets or the set() class constructor
 
+set () class constructor takes a list / tuple as its on argument
+the elements of a set are unique
+
+UNINDEXED - means that we cannot access elements of the set using square brackets as we do in  list
+
+UNORODERED - means elements of a set are in a random order
+
+UNCHANGEABLE - means the individual elements of a set cannot be changed
+
+NB:A set is not immutable because its overall structure can be changed ,it can be changed it  be made shorter or longer(yaani you can add more things in the set).Its unchangeable because an element cannot be changed into something else 
+
+sets have many of the same methods as lists
 
 """
+
+my_set=set(['3','2','3','a','b','a'])
+print(my_set)
+
+s={1,2,3,4,5}
+s.pop()
+s.remove(3)
+print(s)

@@ -253,3 +253,33 @@ print(no_value)
 There are two values of boolean data type - True and False
 
 """
+##Types of errors
+"""
+Syntax Errors - These errors are a result of incorrect syntax
+
+Logic Errors
+Exceptions
+
+
+
+
+
+"""
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

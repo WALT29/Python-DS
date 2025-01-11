@@ -257,7 +257,9 @@ There are two values of boolean data type - True and False
 """
 Syntax Errors - These errors are a result of incorrect syntax
 
-Logic Errors
+Logic Errors- These errors are hard to find they are not perceived as errors by the python interpreter
+    - To find a logic error a programmer must comb thru the code line by line
+    
 Exceptions
 
 

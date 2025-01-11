@@ -260,7 +260,16 @@ Syntax Errors - These errors are a result of incorrect syntax
 Logic Errors- These errors are hard to find they are not perceived as errors by the python interpreter
     - To find a logic error a programmer must comb thru the code line by line
     
-Exceptions
+Exceptions - Exeception pop up when the interpreter knows what to do with the piece of code but is unable to complete the action
+    - The main difference with the other errors is that when the interpreter encounters an exception it can continue reading the application ,you just tell it what to except
+    
+    TYPES OF EXCEPTION
+        ASSERTIONERROR
+        INDEXERROR & KEYERROR
+        NAMEERROR
+        TYPEERROR
+        
+
 
 
 

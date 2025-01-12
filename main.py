@@ -265,17 +265,20 @@ Exceptions - Exeception pop up when the interpreter knows what to do with the pi
     
     TYPES OF EXCEPTION
         ASSERTIONERROR
+            -An assert() tells the interpreter the code inside of it must proceed without exeception or error ,if an assertion fails an assertionerror is raised
+                EG
+                assert(1==2)
+
+
         INDEXERROR & KEYERROR
+            -Index error arises when trying to access an element at an index
+
+        
         NAMEERROR
         TYPEERROR
         
-
-
-
-
-
-
 """
+
 
 
 

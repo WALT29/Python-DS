@@ -271,12 +271,25 @@ Exceptions - Exeception pop up when the interpreter knows what to do with the pi
 
 
         INDEXERROR & KEYERROR
-            -Index error arises when trying to access an element at an index
+            -Index error arises when trying to access an element at an index past the end of the list
+                EG
+                list=[0,1,2,3,4]
+                print(list[10])
+            -Key errors relate to dict.if a key is referenced but does not exist
+                EG
+                dict4={'a':1,'b':2}
+                print(dict4['d'])
+                
 
         
         NAMEERROR
-        TYPEERROR
+            -A name error arises when a name is referenced before it has been defined 
         
+        TYPEERROR
+            - Arises when an operation or function is applied to an object of the wrong type
+                EG
+                wrong_type="abc"+123
+                 
 """
 
 
